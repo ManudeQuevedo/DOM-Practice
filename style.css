@@ -1,0 +1,30 @@
+/* Font Styles */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,700;1,100&display=swap');
+
+* {
+   font-family: 'Roboto Mono', monospace;
+   margin: 0;
+   padding: 0;
+}
+
+.container {
+   text-align: center;
+   padding: 4rem;
+}
+
+div > p {
+   margin-top: 2rem;
+}
+
+.projects {
+   align-content: space-around;
+   display: flex;
+   justify-content: center;
+   margin-top: 4rem;
+
+}
+
+img {
+   margin: 2.5rem;
+   width: 350px;
+}
